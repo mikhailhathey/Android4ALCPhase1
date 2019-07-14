@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+    >
+
+<TextView
+    android:id="@+id/textView_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/title"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:padding="10dp"
+    android:paddingStart="20dp"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="@android:dimen/app_icon_size"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_below="@id/textView_title">
+    <Button
+        android:id="@+id/button_alc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_alc"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_marginBottom="10dp"
+        android:onClick="onViewALC"
+        android:layout_below="@id/textView_title"
+        />
+
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_profile"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:onClick="onViewProfile"/>
+</LinearLayout>
+
+
+</RelativeLayout>

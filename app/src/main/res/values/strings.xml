@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android4ALCPhase1</string>
+    <string name="email">mikhail.hathey@gmail.com</string>
+    <string name="country">South Africa</string>
+    <string name="track">Android</string>
+    <string name="name">Mikha\'il Hathey</string>
+    <string name="phone">+27 74 797 3637</string>
+    <string name="username">\@mikhailhathey</string>
+    <string name="title">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="about_profile">My Profile</string>
+</resources>
