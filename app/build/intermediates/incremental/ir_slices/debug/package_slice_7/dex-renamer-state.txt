@@ -1,4 +1,0 @@
-#Mon Jul 15 23:31:19 SAST 2019
-base.0=/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/transforms/dexMerger/debug/7
-path.0=classes.dex
-renamed.0=classes.dex
