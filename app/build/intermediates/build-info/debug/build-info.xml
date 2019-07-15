@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="29"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="28"
     build-mode="FULL"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1563220799922"
+    timestamp="1563226275807"
     token="-267898882752610059"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,11 +18,14 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="79" />
+        duration="207" />
     <task
         name="verifier"
-        duration="27" />
+        duration="3" />
 
+    <artifact
+        location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
@@ -59,14 +62,14 @@
     <artifact
         location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1563220799922"
+        timestamp="1563226275807"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
@@ -102,9 +105,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mikhailhathey/AndroidStudioProjects/Android4ALCPhase1/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
     </build>
 
