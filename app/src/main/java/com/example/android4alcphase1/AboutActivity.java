@@ -19,17 +19,9 @@ public class AboutActivity extends AppCompatActivity {
 
     private static final String Act = "ProfileActivity";
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.about_activity);
-        webView = (WebView) findViewById(R.id.webView);
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl(url);
-    }
 
-    public class webClient extends WebViewClient{
+
+    public class MyWebClient extends WebViewClient{
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon){
             super.onPageStarted(view, url, favicon);
@@ -51,5 +43,15 @@ public class AboutActivity extends AppCompatActivity {
         public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error){
             handler.proceed();
         }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.about_activity);
+        webView = (WebView) findViewById(R.id.webView);
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        webView.setWebViewClient(new MyWebClient());
+        webView.loadUrl(url);
     }
 }
